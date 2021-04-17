@@ -1,0 +1,95 @@
+/* ==UserStyle==
+@name         博客园-关灯模式
+@namespace      USO Archive
+@author        Damon
+@description    
+@version       1.0
+@license       NO-REDISTRIBUTION
+@preprocessor    uso
+==/UserStyle== */
+@-moz-document domain("cnblogs.com") {
+    body {
+        background: #363636;
+    }
+
+    #mainContent {
+        padding: 0;
+    }
+
+    #topics {
+        width: 100%;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+        padding: 40px;
+        background: #424242;
+    }
+
+    #post_detail {
+        width: 1000px;
+        margin: auto;
+
+    }
+
+    #blogTitle a,
+    profile_block {
+        color: #F0F0F0;
+    }
+
+    .postBody {
+        font-family: Microsoft YaHei;
+        font-size: 13pt;
+        line-height: 1.6;
+        color: #F0F0F0;
+    }
+
+    #sideBar {
+        opacity: 0.1 !important;
+    }
+
+    .navbar {
+        opacity: 0 !important;
+    }
+
+    #sideBar:hover,
+    .navbar:hover {
+        opacity: 1 !important;
+    }
+
+    .postBody table {
+        background: #505050;
+    }
+
+    .postTitle span {
+        color: #FFFFFF;
+    }
+
+    .postBody a {
+        color: #E9B966;
+    }
+
+    .postBody a span {
+        color: #F59999 !important;
+    }
+
+    #blog-sidecolumn {
+        color: #F0F0F0;
+    }
+
+    #blog-sidecolumn a {
+        color: #F0F0F0;
+    }
+
+    #sidebar_news,
+    #blog-news,
+    #blog-calendar,
+    #sidebar_shortcut,
+    #sidebar_recentcomments,
+    #sidebar_topviewedposts,
+    #sidebar_topcommentedposts,
+    #sidebar_topdiggedposts,
+    #comment_form_container,
+    #comment_nav,
+    #under_post_card1,
+    #under_post_card2 {
+        display: none !important;
+    }
+}

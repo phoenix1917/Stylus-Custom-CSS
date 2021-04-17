@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name            关灯模式
+@namespace       USO Archive
+@author          Damon
+@description     黑底白字，中文改成了微软雅黑
+@version         1.0
+@license         NO-REDISTRIBUTION
+@preprocessor    uso
+==/UserStyle== */
+
+@-moz-document domain("thebookofshaders.com") {
+    body {
+        background-color: #393939;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "Microsoft Yahei";
+        color: #F2F2F2;
+    }
+
+    a {
+        color: #FFCAB6;
+    }
+
+    p,
+    li {
+        font-family: "Microsoft Yahei";
+        font-size: 18px;
+        color: #F2F2F2;
+    }
+
+    code {
+        font-family: monaco;
+        color: #FFD37A;
+    }
+
+    strong {
+        color: #FAAA93;
+    }
+
+    .language-processing {
+        background-color: #5F5F5F;
+    }
+}
