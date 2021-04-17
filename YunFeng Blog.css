@@ -1,0 +1,53 @@
+/* ==UserStyle==
+@name           云风 Blog
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    云风 Blog 样式优化
+@author         Damon
+==/UserStyle== */
+
+@-moz-document domain("codingnow.com") {
+    /* 	body {
+		background-color: #869cb1 !important;
+	} */
+
+    #container {
+        width: 900px !important;
+    }
+
+    #container #pagebody {
+        font-family: "Verdana", "方正兰亭刊黑_GBK", -apple-system, BlinkMacSystemFont,
+            PingFang SC, Hiragino Sans GB, Microsoft YaHei, "\5FAE\8F6F\96C5\9ED1", helvetica neue, helvetica,
+            ubuntu, roboto, noto, segoe ui, Arial, sans-serif !important;
+        font-size: 13pt;
+        background-color: #f3f3f3;
+        color: #2f2c29;
+    }
+
+    #container #pagebody a {
+        color: #956137;
+    }
+
+    #container #pagebody a:hover {
+        color: #d7823e;
+    }
+
+    #container .entry-header {
+        font-size: 17pt;
+        line-height: 4;
+    }
+
+    #container #alpha {
+        width: 860px;
+    }
+
+    #container #banner {
+        width: 100%;
+    }
+
+    #container #comments {
+        margin: 20px auto;
+        width: 95%;
+    }
+
+}

@@ -1,0 +1,67 @@
+/* ==UserStyle==
+@name         Nvidia 文档页
+@namespace      USO Archive
+@author        Damon
+@description    
+@version       1.0
+@license       NO-REDISTRIBUTION
+@preprocessor    uso
+==/UserStyle== */
+
+@-moz-document domain("developer.download.nvidia.com") {
+    body {
+        font-family: monaco;
+        font-size: 13pt;
+        background-color: #E5E5E5;
+    }
+
+    #right li {
+        padding-bottom: 5px;
+    }
+
+    #container {
+        padding: 55px 0 0 0;
+    }
+
+    #center {
+        position: absolute !important;
+        width: 50%;
+        margin: 0 30% 0 22%;
+        background-color: #F3F3F3;
+        padding: 40px;
+        min-width: 700px;
+    }
+
+    #left {
+        position: absolute !important;
+        width: 10%;
+        margin: 0 0 0 10%;
+        left: 0 !important;
+        right: 0;
+    }
+
+    #right {
+        position: absolute !important;
+
+        width: 25%;
+        margin: 0 0 0 80%;
+    }
+
+    #center h1 {
+        font-size: 16pt;
+    }
+
+    #center h2 {
+        font-size: 15pt;
+    }
+
+    #center h3 {
+        font-size: 14pt;
+    }
+
+    #center h4,
+    #center h5,
+    #center h6 {
+        font-size: 13pt;
+    }
+}
