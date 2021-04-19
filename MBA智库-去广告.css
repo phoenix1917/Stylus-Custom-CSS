@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           MBA智库-去广告
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    去除广告浮层，固定浮层可用 Ad Block 去除。配合 Enable Copy 解禁复制。
+@author         Damon
+==/UserStyle== */
+
+@-moz-document url-prefix("https://wiki.mbalib.com") {
+	.ad-br,.common-Dialog,#bg {
+		display: none !important;
+	}
+	
+	#bodyContent p {
+		font-size: 14pt;
+		line-height: 2;
+	}
+	
+	body,.portlet {
+		background-color: #f7f7f7 !important;
+	}
+
+}
